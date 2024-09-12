@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo {
+    width: max(10%, 80px);
+}
+
+.navbar .logo h2 {
+    font-size: 50px;
+    cursor: pointer;
+    color: tomato;
+}
+
+.navbar .logo p {
+    font-size: 14px;
+    color: black;
+}
+
+.navbar .profile {
+    width: 40px;
+    cursor: pointer;
+}
